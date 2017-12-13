@@ -1,4 +1,5 @@
-FROM openjdk:8-alpine
+#FROM openjdk:8-alpine
+FROM mycluster.icp:8500/default/openjdk:8-alpine
 
 ENV HTTP_PORT=8080
 
